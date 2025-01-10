@@ -1,0 +1,67 @@
+body{
+		font-family: Sylfaen, Arial;
+		font-size: 100%;
+		background-color: #00FFFF;
+}
+
+Header{
+		background-color: #008080;
+}
+
+nav{
+	background-color: #00FFFF;
+}
+
+main{
+	background-color: #FFDAB9;
+	font-size: 100%;
+}
+
+footer{
+	background-color: #FFD700;
+}
+
+li{
+	display: inline;
+	width: 33%;
+}
+
+h1{
+	text-align: center;
+	font-family: Sylfaen, Arial;
+	color: #FFDAB9;
+}
+
+p{
+	line-height: 100%;
+}
+
+a{
+	color: #CC5500;
+	background-color: #FFD700;
+}
+
+nav a{
+	text-decoration:none;
+}
+
+li{
+	background-color: coral;
+}
+
+li {
+    display: inline;
+    width: 200px;
+}
+
+ul{ 
+background-color: coral;
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.current{
+	text-transform: upper-roman;
+	background-color: #800080;
