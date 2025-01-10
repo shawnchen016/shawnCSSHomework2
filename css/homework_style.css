@@ -9,6 +9,8 @@ Header{
 }
 
 nav{
+	display: inline-block;
+	width: 80%;
 	background-color: #00FFFF;
 }
 
@@ -65,3 +67,16 @@ justify-content: space-evenly;
 .current{
 	text-transform: upper-roman;
 	background-color: #800080;
+	
+nav img{
+    width: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+}
+
+.grid img {
+    width: 100%;
+}
